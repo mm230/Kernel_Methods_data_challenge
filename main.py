@@ -49,7 +49,7 @@ if mains_args["model_name"].lower() == "kernelridge":
     iD = pd.DataFrame(x_test1.Id)
     pred = pd.DataFrame(y_pred, columns = ["Covid"])
     results = pd.DataFrame(np.hstack([iD, pred]), columns = ["Id", "Covid"])
-    results.to_csv("./submissions/prediction_for_Ridge_kernel.csv",index=False)
+    results.to_csv("./submissions/Yte.csv",index=False)
 elif mains_args["model_name"].lower() == "kernelridgepolynomial":
     # instantiate kernel Ridge classifier using polynomial kernel model
     model = KernelRidge_polynomial()
@@ -60,7 +60,7 @@ elif mains_args["model_name"].lower() == "kernelridgepolynomial":
     pred_poly = pd.DataFrame(y_pred_polynomial, columns = ["Covid"])
 
     results_poly = pd.DataFrame(np.hstack([iD_poly, pred_poly]), columns = ["Id", "Covid"])
-    results_poly.to_csv("./submissions/prediction_for_Ridge_kernel_polynomial.csv",index=False)
+    results_poly.to_csv("./submissions/Yte_polynomial.csv",index=False)
 
 print("✅✅✅✅✅✅✅")
 
