@@ -1,2 +1,0 @@
-First submission : KernelRidge(lambd=1., sigma = 0.4)
-
