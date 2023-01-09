@@ -17,7 +17,7 @@ python3 main.py --model kernelridge -l 0.00001
 if you're using the the Ridge kernel with the ```RBF kernel``` 
 Or you can set the value of lambda to 0, if you want to use the Ridge kernel with the polynomial kernel by running the commmand below:
 ```
-python3 main.py --model kernelridgepolynomial -l 0.0
+python3 main.py --model kernelridge polynomial -l 0.0
 
 ```
 </br>
