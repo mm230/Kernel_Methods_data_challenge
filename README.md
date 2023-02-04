@@ -1,5 +1,6 @@
 # DNA Sequence Classification: SARS-CoV-2 (Covid-19) 
-The goals of this include studying machine learning techniques, learning how to use
+
+The goals of this project include studying machine learning techniques, learning how to use
 them, and adapting them to structural data. Due of this, we have chosen the challenge of predicting whether a
 DNA sequence (or read) belongs to SARS-CoV-2 as our sequence classification task (Covid-19). Here, we outline
 the methods we used, our tests, and some of the outcomes. The best submissions were produced by using the
